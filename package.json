@@ -1,0 +1,23 @@
+{
+  "name": "sortitionmining",
+  "version": "1.0.0",
+  "description": "Efficient, Scalable, Flexibile Sortition Mechanism involving customizable strategies and off-chain mining.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotaronowhere/sortitionMining.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shotaronowhere/sortitionMining/issues"
+  },
+  "homepage": "https://github.com/shotaronowhere/sortitionMining#readme",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.6.0"
+  }
+}
