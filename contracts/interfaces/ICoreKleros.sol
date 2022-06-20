@@ -14,9 +14,9 @@ pragma solidity ^0.8.0;
 interface ICore{
 
     struct Account {
-        uint88 stakedTokens; // The account's total amount of tokens staked in subpools.
+        uint96 stakedTokens; // The account's total amount of tokens staked in subpools.
         uint88 lockedTokens; // The account's total amount of tokens locked.
-        uint48 index; // indexing the account
+        uint40 index; // indexing the account
         uint32 time; // The time when the juror staked
     }
 
