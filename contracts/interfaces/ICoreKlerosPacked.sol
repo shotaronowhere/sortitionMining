@@ -11,11 +11,10 @@ pragma solidity ^0.8.0;
  *  @author ShotaroNowhere - <shawtarohgn@gmail.com>
  *  @dev Strategy Interface for drawing.
  */
-interface ICoreKleros{
+interface ICoreKlerosPacked{
 
     struct Account {
-        uint96 stakedTokens; // The account's total amount of tokens staked in subpools.
-        uint88 lockedTokens; // The account's total amount of tokens locked.
+        uint184 packedStakedLockedTokens; // ~ [uint92 staked][uint92 locked]
         uint40 index; // indexing the account
         uint32 time; // The time when the juror staked
     }
